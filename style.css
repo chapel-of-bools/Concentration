@@ -17,7 +17,7 @@ div#board{
   border-radius: 20px;
 }
 div#board > div{
-  background: black no-repeat;
+  background: url(reelthumb.jpg) no-repeat;
   color: black;
 	border: 1px solid white;
   border-radius: 10px;

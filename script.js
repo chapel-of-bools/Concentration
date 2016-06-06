@@ -49,9 +49,9 @@ function flipCard(card,val){
           // Flip the 2 tiles back over
           var card_1 = document.getElementById(cardIds[0]);
           var card_2 = document.getElementById(cardIds[1]);
-          card_1.style.background = 'black no-repeat';
+          card_1.style.background = 'url(reelthumb.jpg) no-repeat';
           card_1.innerHTML = "";
-          card_2.style.background = 'black no-repeat';
+          card_2.style.background = 'url(reelthumb.jpg) no-repeat';
           card_2.innerHTML = "";
           // Clear both arrays
           cardValues = [];
