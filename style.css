@@ -1,18 +1,26 @@
+html{
+  background-image: url(reel.png);
+  background-size: auto;
+}
 h1{
   text-align: center;
+  padding-top: 10px;
+  margin: 15px;
 }
 div#board{
-  background-color: red;
+  background-color: transparent;
   height: 510px;
-  width: 700px;
+  width: 695px;
   padding: 25px;
   margin: 10px auto;
   border: 5px solid black;
+  border-radius: 20px;
 }
 div#board > div{
   background: black no-repeat;
   color: black;
 	border: 1px solid white;
+  border-radius: 10px;
 	width:71px;
 	height:71px;
 	float:left;
