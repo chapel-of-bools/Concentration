@@ -16,7 +16,7 @@ h1{
 div#board{
   background-color: #D0D0D0;
   height: 510px;
-  width: 695px;
+  width: 720px;
   padding: 20px;
   margin: 10px auto;
   border: 5px solid black;
@@ -26,7 +26,7 @@ div#board{
 div#board > div{
   background: url(reelthumb.jpg) no-repeat;
   color: black;
-	border: 1px solid white;
+	border: 3px solid white;
   border-radius: 10px;
 	width:131px;
 	height:131px;
