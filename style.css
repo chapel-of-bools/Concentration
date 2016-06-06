@@ -3,9 +3,21 @@ h1{
 }
 div#board{
   background-color: red;
-  height: 500px;
-  width: 500px;
+  height: 510px;
+  width: 700px;
   padding: 25px;
   margin: 10px auto;
   border: 5px solid black;
+}
+div#board > div{
+  background: black no-repeat;
+  color: black;
+	border: 1px solid white;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:20px;
+	padding:30px;
+	font-size:64px;
+	text-align:center;
 }
