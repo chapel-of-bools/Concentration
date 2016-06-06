@@ -1,4 +1,3 @@
-// var cardArray = ['A','A','B','B','C','C','D','D','E','E','F','F'];
 var cardArray = ['bt.jpg','bt.jpg','btilc.jpg','btilc.jpg','dp.jpg','dp.jpg','efny.jpg','efny.jpg','h8.jpg','h8.jpg','tt.jpg','tt.jpg']
 var cardValues = [];
 var cardIds = [];
@@ -19,8 +18,7 @@ function newBoard(){
   var output = " ";
   cardArray.shuffle();
   for(var i = 0; i < cardArray.length; i++){
-    // output += '<div id="card_'+i+'" onclick="flipCard(this,\''+cardArray[i]+'\')"></div>';
-    output += '<div ><img id="card_'+i+'" style="opacity:0" src="'+cardArray[i]+'" onclick="flipCard(this, \'' + cardArray[i] + '\')" /></div>';
+    output += '<div><img id="card_'+i+'" style="opacity:0" src="'+cardArray[i]+'" onclick="flipCard(this, \'' + cardArray[i] + '\')" /></div>';
     $("#board").html(output);
   }
 }

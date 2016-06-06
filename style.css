@@ -10,7 +10,7 @@ h1{
   text-align: center;
   text-shadow: 1px 1px white;
   padding-top: 5px;
-  margin: 15px;
+  margin: 10px;
   font-family: watchmen;
 }
 div#board{
@@ -18,7 +18,7 @@ div#board{
   height: 510px;
   width: 720px;
   padding: 20px;
-  margin: 10px auto;
+  margin: 20px auto;
   border: 5px solid black;
   border-radius: 20px;
   box-shadow: 0px 10px 20px black;
