@@ -20,7 +20,7 @@ function newBoard(){
   cardArray.shuffle();
   for(var i = 0; i < cardArray.length; i++){
     // output += '<div id="card_'+i+'" onclick="flipCard(this,\''+cardArray[i]+'\')"></div>';
-    output += '<div id="card_'+i+'"><img style="opacity:0" src="'+cardArray[i]+'" onclick="flipCard(this)" /></div>';
+    output += '<div ><img id="card_'+i+'" style="opacity:0" src="'+cardArray[i]+'" onclick="flipCard(this, \'' + cardArray[i] + '\')" /></div>';
     $("#board").html(output);
   }
 }
@@ -50,10 +50,8 @@ function flipCard(card,val){
           // Flip the 2 tiles back over
           var card_1 = document.getElementById(cardIds[0]);
           var card_2 = document.getElementById(cardIds[1]);
-          card_1.style.background = 'url(reelthumb.jpg) no-repeat';
-          card_1.innerHTML = "";
-          card_2.style.background = 'url(reelthumb.jpg) no-repeat';
-          card_2.innerHTML = "";
+          card_1.style.opacity = 0;
+          card_2.style.opacity = 0;
           // Clear both arrays
           cardValues = [];
           cardIds = [];
