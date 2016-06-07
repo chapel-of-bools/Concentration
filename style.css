@@ -14,6 +14,7 @@ h1{
   margin: 5px;
   font-family: watchmen;
 }
+
 div#board{
   background-color: #D0D0D0;
   height: 510px;
@@ -22,9 +23,12 @@ div#board{
   padding-top: 0px;
   padding-bottom: 25px;
   margin: 10px auto;
-  border: 10px double black;
+  border: 10px double #200601;
   border-radius: 20px;
   box-shadow: 0px 10px 20px black;
+}
+div#board:hover{
+  cursor: url(cursor.cur), auto;
 }
 div#board > div{
   background: url(reelthumb.jpg) no-repeat;
