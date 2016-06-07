@@ -25,15 +25,17 @@ div#board{
 }
 div#board > div{
   background: url(reelthumb.jpg) no-repeat;
-  color: black;
-	border: 3px solid white;
+	border: 3px solid #FF6600;
   border-radius: 10px;
 	width:131px;
 	height:131px;
 	float:left;
 	margin:20px;
-	/*padding:30px;*/
-	font-size:64px;
-	text-align:center;
   overflow: hidden;
+  transition: box-shadow .5s;
+  transition: box-shadow ease-out .5s;
+}
+
+div#board > div:hover{
+  box-shadow: 0px 0px 100px #6392FF;
 }

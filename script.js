@@ -1,3 +1,4 @@
+// Variables
 var cardArray = ['bt.jpg','bt.jpg','btilc.jpg','btilc.jpg','dp.jpg','dp.jpg','efny.jpg','efny.jpg','h8.jpg','h8.jpg','tt.jpg','tt.jpg']
 var cardValues = [];
 var cardIds = [];
