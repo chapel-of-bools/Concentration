@@ -7,10 +7,11 @@ html{
     src: url(--wATCHMEn--.ttf);
 }
 h1{
+  font-size: 40px;
   text-align: center;
   text-shadow: 1px 1px white;
   padding-top: 5px;
-  margin: 10px;
+  margin: 5px;
   font-family: watchmen;
 }
 div#board{
@@ -18,7 +19,7 @@ div#board{
   height: 510px;
   width: 720px;
   padding: 20px;
-  margin: 20px auto;
+  margin: 5px auto;
   border: 10px double black;
   border-radius: 20px;
   box-shadow: 0px 10px 20px black;
