@@ -1,7 +1,7 @@
 var cardArray = ['bt.jpg','bt.jpg','btilc.jpg','btilc.jpg','dp.jpg','dp.jpg','efny.jpg','efny.jpg','h8.jpg','h8.jpg','tt.jpg','tt.jpg']
 var cardValues = [];
 var cardIds = [];
-var cardsFlipped = 0;
+var cardsFlipped = 0; // Could make card its own object instead of repeating
 // Shuffle function
 Array.prototype.shuffle = function(){
   var i = this.length, j, temp;
@@ -39,7 +39,7 @@ function flipCard(card,val){
         cardIds = [];
         // Check to see board is cleared
         if(cardsFlipped == cardArray.length){
-          alert("You win! Let's play again!");
+          alert("You win! Let's play again!"); //I think you should put "Congratulations" in this alert
           $("#board").html("");
           newBoard();
         }
