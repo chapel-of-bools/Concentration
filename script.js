@@ -3,6 +3,11 @@ var cardValues = [];
 var cardIds = [];
 var cardsFlipped = 0; // Could make card its own object instead of repeating
 // Shuffle function
+// You don't really need this comment, or the others saying what the functions do, because you named the functions well.
+// If a function's called "newBoard", I have a pretty good idea of what it does! :)
+
+// Generally it's considered bad practice to add methods directly to built-in Javascript objects like this
+// For something very general with widespread applications like `shuffle` I think it's fine. But I wouldn't make a habit of it.
 Array.prototype.shuffle = function(){
   var i = this.length, j, temp;
   while (--i > 0){
@@ -44,6 +49,7 @@ function flipCard(card,val){
           newBoard();
         }
       } else {
+          // It's considered bad practice to declare functions inside an `if/else`. Move this out to the root level of your app.
         function flipBack(){
           // Flip the 2 tiles back over
           var card_1 = document.getElementById(cardIds[0]);
